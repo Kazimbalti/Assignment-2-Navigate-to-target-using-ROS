@@ -19,11 +19,11 @@ To run this repository first create a catkin workspace
 
 ## To clone this repository 
 2. cd catkin_ws/src
-2. git clone https://github.com/Kazimbalti/Assignment-2-Navigate-to-target-using-ROS.git
+2. git clone https://github.com/Kazimbalti/ros_101_turtlesim.git
 3. cd catkin_ws
 4. catkin_make
 
-## Open 4 terminals
+## Open 3 terminals
 ### In first terminal
  roscore
 
@@ -31,4 +31,4 @@ To run this repository first create a catkin workspace
  rosrun turtlesim turtlesim_node
 
 ### 3rd ternial
-
+rosrun ros_101_turtlesim turtle_guide_to_xy.py
